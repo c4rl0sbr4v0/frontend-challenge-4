@@ -68,6 +68,9 @@ body, button, input, select, textarea {
 .landbot-message[data-author="user"] {
   justify-content: flex-end;
 }
+.sb-show-main .landbot-message-avatar {
+  display: block;
+}
 
 .landbot-message-avatar {
   display: none;

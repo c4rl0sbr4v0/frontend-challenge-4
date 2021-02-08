@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Component 1`] = `
+<div>
+  <article
+    class="media landbot-message"
+    data-author=""
+  >
+    <figure
+      class="media-left landbot-message-avatar"
+    >
+      <p
+        class="image is-64x64"
+      >
+        <img
+          alt=""
+          class="is-rounded"
+          src="r2.jpg"
+        />
+      </p>
+    </figure>
+    <div
+      class="media-content landbot-message-content"
+    >
+      <div
+        class="content"
+      >
+        <p>
+          peeep
+        </p>
+      </div>
+    </div>
+  </article>
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message Container Component 1`] = `
+<div>
+  <div
+    class="landbot-messages-container"
+    id="landbot-messages-container"
+  >
+    <div>
+      ey
+    </div>
+  </div>
+</div>
+`;

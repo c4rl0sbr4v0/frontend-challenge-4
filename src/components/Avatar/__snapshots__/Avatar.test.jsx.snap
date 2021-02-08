@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Component 1`] = `
+<div>
+  <figure
+    class="media-left landbot-message-avatar"
+  >
+    <p
+      class="image is-64x64"
+    >
+      <img
+        alt=""
+        class="is-rounded"
+        src="r2.jpg"
+      />
+    </p>
+  </figure>
+</div>
+`;
