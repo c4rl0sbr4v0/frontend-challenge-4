@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component 1`] = `
+<div>
+  <button
+    class="button landbot-input-send"
+  >
+    Click me
+  </button>
+</div>
+`;

@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import Button from './Button';
 import Header from './Header';
+import Icon from './Icon';
+import Input from './Input';
+import InputContainer from './InputContainer';
 import Message from './Message';
 import MessageContainer from './MessageContainer';
 
@@ -52,30 +56,21 @@ export default function Chat() {
             <Message author={message.author} key={message.key} text={message.text} />
           ))}
       </MessageContainer>
-      <div className="landbot-input-container">
-        <div className="field">
-          <div className="control">
-            <input
-              className="landbot-input"
-              type="text"
-              placeholder="Type here..."
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyUp={(e) => {
-                if (e.key === 'Enter') {
-                  e.preventDefault();
-                  submit();
-                }
-              }}
-            />
-            <button className="button landbot-input-send" onClick={submit} disabled={input === ''}>
-              <span className="icon is-large">
-                <i className="fas fa-paper-plane fa-lg"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
+      <InputContainer>
+        <Input
+          onChange={(e) => setInput(e.target.value)}
+          onKeyUp={(e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault();
+              submit();
+            }
+          }}
+          value={input}
+        />
+        <Button onClick={submit} disabled={input === ''}>
+          <Icon size="is-large" icon="fa-paper-plane" />
+        </Button>
+      </InputContainer>
     </>
   );
 }

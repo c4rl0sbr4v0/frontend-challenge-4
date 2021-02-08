@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Component 1`] = `
+<div>
+  <span
+    class="icon is-large"
+  >
+    <i
+      class="fas fa-lg fa-paper-plane"
+    />
+  </span>
+</div>
+`;

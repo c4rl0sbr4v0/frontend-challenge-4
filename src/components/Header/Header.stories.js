@@ -7,7 +7,7 @@ export default {
 };
 
 export const Default = () => (
-  <header class="hero is-dark">
+  <header className="hero is-dark">
     <Header>Landbot</Header>
   </header>
 );

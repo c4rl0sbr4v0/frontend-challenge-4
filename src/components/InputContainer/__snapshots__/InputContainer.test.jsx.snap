@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Container Component 1`] = `
+<div>
+  <div
+    class="landbot-input-container"
+  >
+    <div
+      class="field"
+    >
+      <div
+        class="control"
+      >
+        <div>
+          ey
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component 1`] = `
+<div>
+  <input
+    class="landbot-input"
+    placeholder="Enter"
+    type="text"
+    value="patata"
+  />
+</div>
+`;

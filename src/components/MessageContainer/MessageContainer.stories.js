@@ -1,9 +1,9 @@
 import React from 'react';
-import Message from './index';
+import MessageContainer from './index';
 
 export default {
-  title: 'Components/Message',
-  component: Message,
+  title: 'Components/Message Container',
+  component: MessageContainer,
 };
 
-export const Default = () => <Message key="rd2d" author="bot" text="Peeeeeep peep moc prrrr" />;
+export const Default = () => <MessageContainer>Container</MessageContainer>;
